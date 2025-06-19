@@ -5,4 +5,4 @@ import * as schema from '../db/schema.js'
 
 
 const sql = neon(env.DB_URL);
-const db = drizzle(sql, { schema });
+export const db = drizzle(sql, { schema });
