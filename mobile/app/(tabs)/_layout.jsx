@@ -1,5 +1,5 @@
 import { useAuth } from '@clerk/clerk-expo'
-import { Redirect, Stack, Tabs } from 'expo-router'
+import { Redirect, Tabs } from 'expo-router'
 import { Ionicons } from '@expo/vector-icons'
 import { COLORS } from '../../constants/colors'
 
@@ -11,6 +11,7 @@ const TabsLayout = () => {
         <Tabs screenOptions={{
             headerShown: false,
             tabBarActiveTintColor: COLORS.primary,
+            tabBarPressColor: 'transparent',
             // tabBarInactiveTintColor: COLORS.textLight,
             tabBarStyle: {
                 backgroundColor: COLORS.white,
@@ -19,10 +20,11 @@ const TabsLayout = () => {
                 paddingBottom: 8,
                 paddingTop: 8,
                 height: 80,
+
             },
             tabBarLabelStyle: {
                 fontSize: 12,
-                fontWeight:"600",
+                fontWeight: "600",
             }
 
         }}>
@@ -32,6 +34,7 @@ const TabsLayout = () => {
                     title: "Recipes",
                     tabBarIcon: ({ color, size }) => <Ionicons name='fast-food' size={size} color={color} />
                 }}
+
             />
             <Tabs.Screen
                 name='search'

@@ -1,4 +1,4 @@
-const BASE_URL = "www.themealdb.com/api/json/v1/1"
+const BASE_URL = "https://www.themealdb.com/api/json/v1/1"
 
 export const MealAPI = {
     // search meals by name
@@ -32,7 +32,7 @@ export const MealAPI = {
             const data = await response.json();
             return data.meals ? data.meals[0] : null;
         } catch (error) {
-            console.error("Error getting a random meal:", error);
+            console.error("Error getting random meal:", error);
             return null;
         }
     },
@@ -40,15 +40,24 @@ export const MealAPI = {
     // get muiltiple random meals
     getRandomMeals: async (count = 6) => {
         try {
-            const promises = Array(count).fill().map(() => MealAPI.getRandomMeal());
+            const promises = Array(count)
+                .fill()
+                .map(() => MealAPI.getRandomMeal());
             const meals = await Promise.all(promises);
             return meals.filter((meal) => meal !== null);
         } catch (error) {
             console.error("Error getting random meals:", error);
-            return null;
+            return [];
         }
     },
-
+    // getRandomMeals: async (count = 6) => {
+    //     const meals = [];
+    //     for (let i = 0; i < count; i++) {
+    //         const meal = await MealAPI.getRandomMeal();
+    //         if (meal) meals.push(meal);
+    //     }
+    //     return meals;
+    // },
 
     // listing all meal categories
     getCategories: async () => {
@@ -111,7 +120,7 @@ export const MealAPI = {
             id: meal.idMeal,
             title: meal.strMeal,
             description: meal.strInstructions
-                ? meal.strInstructions.substring(0, 120) + "..."
+                ? meal.strInstructions.trim().substring(0, 120) + "..."
                 : "Delicious meal from TheMealDB",
             image: meal.strMealThumb,
             cookTime: "30 minutes",
