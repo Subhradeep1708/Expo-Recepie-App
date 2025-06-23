@@ -121,7 +121,7 @@ export const MealAPI = {
             title: meal.strMeal,
             description: meal.strInstructions
                 ? meal.strInstructions.trim().substring(0, 120) + "..."
-                : "Delicious meal from TheMealDB",
+                : "Click to see details...",
             image: meal.strMealThumb,
             cookTime: "30 minutes",
             servings: 4,

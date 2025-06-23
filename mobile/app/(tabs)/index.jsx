@@ -94,7 +94,7 @@ const HomeScreen = () => {
         loadData()
     }, [])
 
-    if (loading) return <LoadingSpinner message='Hang Tight Recipes Are Coming...' />
+    if (loading && !refreshing) return <LoadingSpinner message='Hang Tight Recipes Are Coming...' />
 
     return (
         <View style={homeStyles.container}>
