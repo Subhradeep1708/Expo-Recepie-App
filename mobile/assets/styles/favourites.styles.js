@@ -20,8 +20,8 @@ export const favoritesStyles = StyleSheet.create({
         letterSpacing: -0.5,
     },
     logoutButton: {
-        width: 40,
-        height: 40,
+        width: 90,
+        height: 50,
         borderRadius: 20,
         backgroundColor: COLORS.card,
         justifyContent: "center",

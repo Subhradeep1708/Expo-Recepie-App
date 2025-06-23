@@ -1,0 +1,1 @@
+export const API_URL = "https://expo-recepie-app.onrender.com/api/v1"

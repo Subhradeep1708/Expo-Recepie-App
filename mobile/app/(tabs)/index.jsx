@@ -8,6 +8,7 @@ import { Ionicons } from '@expo/vector-icons'
 import { COLORS } from '../../constants/colors.js';
 import CategoryFilter from '../../components/CategoryFilter.jsx';
 import RecipeCard from '../../components/RecipeCard.jsx';
+import LoadingSpinner from '../../components/LoadingSpinner.jsx';
 const HomeScreen = () => {
     const router = useRouter();
     const [selectedCategory, setSelectedCategory] = useState(null)
@@ -93,7 +94,7 @@ const HomeScreen = () => {
         loadData()
     }, [])
 
-
+    if (loading) return <LoadingSpinner message='Hang Tight Recipes Are Coming...' />
 
     return (
         <View style={homeStyles.container}>
