@@ -42,8 +42,8 @@
 <h4>Home Screen</h4>
 <table>
   <tr>
-    <td><img src="mobile/assets/images/home-top.jpg" alt="Home Top" width="400"/></td>
-    <td><img src="mobile/assets/images/home-bottom.jpg" alt="Home Bottom" width="400"/></td>
+    <td><img src="mobile/assets/images/home-top.jpg" alt="Home Top" width="350"/></td>
+    <td><img src="mobile/assets/images/home-bottom.jpg" alt="Home Bottom" width="350"/></td>
   </tr>
 </table>
 
@@ -58,15 +58,15 @@
 </table>
 
 <h4>Category Filter</h4>
-<img src="mobile/assets/images/home-bottom.jpg" alt="Category Filter" width="400">
+<img src="mobile/assets/images/home-bottom.jpg" alt="Category Filter" width="300">
 
 
 
 <h4>Search Recipe Screen</h4>
 <table>
   <tr>
-    <td><img src="mobile/assets/images/search.jpg" alt="Home Top" width="400"/></td>
-    <td><img src="mobile/assets/images/search-type.jpg" alt="Home Bottom" width="400"/></td>
+    <td><img src="mobile/assets/images/search.jpg" alt="Home Top" width="350"/></td>
+    <td><img src="mobile/assets/images/search-type.jpg" alt="Home Bottom" width="350"/></td>
   </tr>
 </table>
 <h4>Recipe Details Screen</h4>
@@ -80,7 +80,7 @@
 
 
 <h4>Favourites Screen</h4>
-<img src="mobile/assets/images/favourites.jpg" alt="Recipe Details" width="400">
+<img src="mobile/assets/images/favourites.jpg" alt="Recipe Details" width="300">
 
 <h2 id="installation">⚙ Installation</h2>
 
