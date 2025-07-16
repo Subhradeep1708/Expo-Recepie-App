@@ -42,45 +42,45 @@
 <h4>Home Screen</h4>
 <table>
   <tr>
-    <td><img src="assets/images/home-top.jpg" alt="Home Top" width="400"/></td>
-    <td><img src="assets/images/home-bottom.jpg" alt="Home Bottom" width="400"/></td>
+    <td><img src="mobile/assets/images/home-top.jpg" alt="Home Top" width="400"/></td>
+    <td><img src="mobile/assets/images/home-bottom.jpg" alt="Home Bottom" width="400"/></td>
   </tr>
 </table>
 
 <h4>Authentication Screen</h4>
 <table>
   <tr>
-    <td><img src="assets/images/signin-clear.jpg" alt="Home Top" width="400"/></td>
-    <td><img src="assets/images/signin.jpg" alt="Home Bottom" width="400"/></td>
-    <td><img src="assets/images/signup.jpg" alt="Home Bottom" width="400"/></td>
-    <td><img src="assets/images/verify.jpg" alt="Home Bottom" width="400"/></td>
+    <td><img src="mobile/assets/images/signin-clear.jpg" alt="Home Top" width="400"/></td>
+    <td><img src="mobile/assets/images/signin.jpg" alt="Home Bottom" width="400"/></td>
+    <td><img src="mobile/assets/images/signup.jpg" alt="Home Bottom" width="400"/></td>
+    <td><img src="mobile/assets/images/verify.jpg" alt="Home Bottom" width="400"/></td>
   </tr>
 </table>
 
 <h4>Category Filter</h4>
-<img src="assets/images/home-bottom.jpg" alt="Category Filter" width="800">
+<img src="mobile/assets/images/home-bottom.jpg" alt="Category Filter" width="800">
 
 
 
 <h4>Search Recipe Screen</h4>
 <table>
   <tr>
-    <td><img src="assets/images/search.jpg" alt="Home Top" width="400"/></td>
-    <td><img src="assets/images/search-type.jpg" alt="Home Bottom" width="400"/></td>
+    <td><img src="mobile/assets/images/search.jpg" alt="Home Top" width="400"/></td>
+    <td><img src="mobile/assets/images/search-type.jpg" alt="Home Bottom" width="400"/></td>
   </tr>
 </table>
 <h4>Recipe Details Screen</h4>
 <table>
   <tr>
-    <td><img src="assets/images/recipe-top.jpg" alt="Home Top" width="400"/></td>
-    <td><img src="assets/images/recipe-vdo.jpg" alt="Home Bottom" width="400"/></td>
-    <td><img src="assets/images/recipe-instr.jpg" alt="Home Bottom" width="400"/></td>
+    <td><img src="mobile/assets/images/recipe-top.jpg" alt="Home Top" width="400"/></td>
+    <td><img src="mobile/assets/images/recipe-vdo.jpg" alt="Home Bottom" width="400"/></td>
+    <td><img src="mobile/assets/images/recipe-instr.jpg" alt="Home Bottom" width="400"/></td>
   </tr>
 </table>
 
 
 <h4>Favourites Screen</h4>
-<img src="assets/images/favourites.jpg" alt="Recipe Details" width="800">
+<img src="mobile/assets/images/favourites.jpg" alt="Recipe Details" width="800">
 
 <h2 id="installation">⚙ Installation</h2>
 
