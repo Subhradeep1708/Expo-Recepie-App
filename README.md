@@ -58,7 +58,7 @@
 </table>
 
 <h4>Category Filter</h4>
-<img src="mobile/assets/images/home-bottom.jpg" alt="Category Filter" width="800">
+<img src="mobile/assets/images/home-bottom.jpg" alt="Category Filter" width="400">
 
 
 
@@ -80,7 +80,7 @@
 
 
 <h4>Favourites Screen</h4>
-<img src="mobile/assets/images/favourites.jpg" alt="Recipe Details" width="800">
+<img src="mobile/assets/images/favourites.jpg" alt="Recipe Details" width="400">
 
 <h2 id="installation">⚙ Installation</h2>
 
@@ -88,7 +88,7 @@
 # Clone the repository
 git clone https://github.com/Subhradeep1708/Expo-Recepie-App
 
-cd Ektu-Jhal
+cd Ektu-Jhal/mobile
 
 # Install dependencies
 npm install
