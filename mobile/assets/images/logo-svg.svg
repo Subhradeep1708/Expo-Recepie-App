@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="60" viewBox="0 0 300 60">
+  <style>
+    .text { font: 700 32px 'Segoe UI', sans-serif; fill: #C7432F; }
+    .icon { fill: none; stroke: #C7432F; stroke-width: 2.5; stroke-linecap: round; }
+    .steam { fill: none; stroke: #C7432F; stroke-width: 2.5; stroke-linecap: round; }
+  </style>
+  <text x="10" y="40" class="text">Ektu Jha</text>
+ <g transform="translate(190, 15)">
+  <rect x="-50" y="7" width="30" height="18" rx="4" class="icon"/>
+  <line x1="-20" y1="23" x2="-15" y2="23" class="icon"/>
+   <path d="M-42,1 C-43,-4 -41,-4 -42,-7" class="steam"/>
+  <path d="M-36,1 C-37,-4 -35,-4 -36,-7" class="steam"/>
+  <path d="M-30,1 C-31,-4 -29,-4 -30,-7" class="steam"/>
+</g>
+  
+</svg>

@@ -9,6 +9,8 @@ import { COLORS } from '../../constants/colors.js';
 import CategoryFilter from '../../components/CategoryFilter.jsx';
 import RecipeCard from '../../components/RecipeCard.jsx';
 import LoadingSpinner from '../../components/LoadingSpinner.jsx';
+import LogoSvg from '../../components/LogoSvg.js';
+
 const HomeScreen = () => {
     const router = useRouter();
     const [selectedCategory, setSelectedCategory] = useState(null)
@@ -111,15 +113,16 @@ const HomeScreen = () => {
             >
 
                 {/* Animal Icons */}
-                <View style={homeStyles.welcomeSection}>
-                    <Image
-                        source={require("../../assets/images/lamb.png")}
+                <View style={[homeStyles.welcomeSection, { width: '100%', alignItems: 'center', padding: 1 }]}>
+                    <LogoSvg width={400} height={90} />
+                    {/* <Image
+                        source={require("../../assets/images/logo-svg.svg")}
                         style={{
-                            width: 100,
+                            width: 700,
                             height: 100
                         }}
-                    />
-                    <Image
+                    /> */}
+                    {/* <Image
                         source={require("../../assets/images/chicken.png")}
                         style={{
                             width: 100,
@@ -132,7 +135,7 @@ const HomeScreen = () => {
                             width: 100,
                             height: 100
                         }}
-                    />
+                    />*/}
                 </View>
 
                 {/* Featured Section */}

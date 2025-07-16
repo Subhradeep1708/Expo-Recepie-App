@@ -106,6 +106,7 @@ export default function Page() {
                      </TouchableOpacity>
 
                   </View>
+                  
 
                   {/* SignIn Button */}
                   <TouchableOpacity

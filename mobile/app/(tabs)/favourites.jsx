@@ -27,8 +27,8 @@ const FavouritesScreen = () => {
                     ...favourite,
                     id: favourite.recipeId
                 }))
-                console.log("favourites", favourites);
-                console.log("transformedFavourite", transformedFavourite);
+                // console.log("favourites", favourites);
+                // console.log("transformedFavourite", transformedFavourite);
                 setFavouriteRecipes(transformedFavourite)
             } catch (error) {
                 console.log("Error loading favourites", error);
